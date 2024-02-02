@@ -1,0 +1,7 @@
+body,
+html {
+  background: #009dfa;
+  color: #eee;
+  min-height: 100vh;
+  margin-top: 40px;
+}

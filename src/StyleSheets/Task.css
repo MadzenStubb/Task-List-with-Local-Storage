@@ -1,0 +1,76 @@
+.task-container{
+    width: 500px;
+    min-height: 65px;
+    background-color: #495867;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Gradient Background Colours */
+
+.task-container:nth-child(4n + 1){
+    background-color: #A59132;
+}
+.task-container:nth-child(4n + 2){
+    background-color: #6B5B95;
+}
+.task-container:nth-child(4n + 3){
+    background-color: #037971;
+}
+.task-container:nth-child(4n + 4){
+    background-color: #9649CB;
+}
+
+
+/* Text */
+
+.task-text{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: anywhere;
+    overflow-y: hidden;
+}
+
+.task-icon{
+    margin: 3px;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.task-icon:hover{
+    box-shadow: #ff004c 0px 0px 15px;
+    background-color: #ff004c;
+    color: #1b1b32;
+}
+
+.task-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* Finished Task */
+
+.task-container.finished{
+    background-color: #009f6a;
+    color: white;
+    text-decoration: line-through;
+    border-radius: 10px;
+}

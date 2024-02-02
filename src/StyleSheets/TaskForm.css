@@ -1,0 +1,45 @@
+/* Main Structure */
+
+.task-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Text Input */
+
+.task-input{
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    padding: 14px 32px 14px 16px;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #eee;
+    outline: none;
+    background: #1E1E24;
+    color: #eee;
+}
+
+/* Add Task Button */
+
+.task-button{
+    padding: 2.2px 8px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+    background: #1E1E24;
+    color: #eee;
+    text-transform: capitalize;
+    border: 2px solid #eee;
+}
+.task-button:hover{
+    background: #DAFF7D;
+    color: #1E1E24;
+    font-weight: 500;
+}
+
